@@ -90,7 +90,7 @@ export default function ProfilePage() {
             </div>
           </div>
 
-          {/* Sign Out Button */}
+          {/* Sign Out Button */} 
           <button
             onClick={handleSignOut}
             className="bg-red-50 text-red-600 hover:bg-red-100 px-5 py-2.5 rounded-xl font-semibold text-sm transition"
