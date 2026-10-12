@@ -192,7 +192,7 @@ export default function CategoryPage() {
                   {arrowSymbol} {pct}%
                 </span> 
               </div>
-            </Link>
+            </Link> 
           );
         })}
       </div>
