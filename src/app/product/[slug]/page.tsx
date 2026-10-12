@@ -88,7 +88,7 @@ export default function ProductDetailPage() {
     return null;
   }
 
-  if (!product) {
+  if (!product) { 
     return (
       <div className="max-w-7xl mx-auto px-4 py-20 text-center space-y-4">
         <h2 className="text-2xl font-bold text-gray-800">Ponnyti paoya jayni</h2>
