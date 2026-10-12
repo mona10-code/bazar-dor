@@ -190,7 +190,7 @@ export default function CategoryPage() {
                 </div>
                 <span className={`${badgeColor} font-bold text-sm`}>
                   {arrowSymbol} {pct}%
-                </span>
+                </span> 
               </div>
             </Link>
           );
