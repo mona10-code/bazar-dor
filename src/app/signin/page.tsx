@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import toast, { Toaster } from 'react-hot-toast';
-import { createAuthClient } from "better-auth/react";
+import { createAuthClient } from "better-auth/react"; 
 
 const authClient = createAuthClient();
 
