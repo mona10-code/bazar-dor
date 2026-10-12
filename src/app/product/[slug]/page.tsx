@@ -63,7 +63,7 @@ export default function ProductDetailPage() {
               { market: 'গাজীপুর বাজার', division: 'গাজীপুর', min: 60, max: 61, avg: 60.5 },
               { market: 'টঙ্গী বাজার, টঙ্গী', division: 'ঢাকা', min: 58, max: 61, avg: 59.5 },
               { market: 'সাভার বাজার', division: 'সাভার', min: 60, max: 62, avg: 61 },
-              { market: 'মিরপুর বাজার', division: 'দিল্লী', min: 58, max: 60, avg: 59.0 },
+              { market: 'মিরপুর বাজার', division: 'ঢাকা', min: 58, max: 60, avg: 59.0 },
               { market: 'কাপ্তান বাজার', division: 'ঢাকা', min: 62, max: 65, avg: 63.5 }
             ]
           });
@@ -91,12 +91,12 @@ export default function ProductDetailPage() {
   if (!product) { 
     return (
       <div className="max-w-7xl mx-auto px-4 py-20 text-center space-y-4">
-        <h2 className="text-2xl font-bold text-gray-800">Ponnyti paoya jayni</h2>
+        <h2 className="text-2xl font-bold text-gray-800">পণ্যটি পাওয়া যায়নি</h2>
         <Link
           href="/"
           className="inline-block bg-emerald-600 text-white px-6 py-2.5 rounded-xl font-semibold"
         >
-          Home page-e fire jan
+          হোম পেজে ফিরে যান
         </Link>
       </div>
     );
