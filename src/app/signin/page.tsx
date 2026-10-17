@@ -130,7 +130,7 @@ onError: (ctx) => {
         <p className="text-center text-sm text-gray-500 pt-2">
           অ্যাকাউন্ট নেই?{' '}
           <Link href="/signup" className="text-emerald-700 font-bold hover:underline">
-            রেজিস্ট্রেশন করুন
+            সাইন আপ করুন
           </Link>
         </p>
       </div>

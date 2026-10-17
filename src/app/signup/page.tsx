@@ -50,7 +50,7 @@ export default function SignUpPage() {
 },
 onError: (ctx) => {
   setLoading(false);
-  toast.error(ctx.error.message || 'রেজিস্ট্রেশন ব্যর্থ হয়েছে!');
+  toast.error(ctx.error.message || 'সাইন আপ ব্যর্থ হয়েছে!');
 }
     });
   };
@@ -60,7 +60,7 @@ onError: (ctx) => {
       <Toaster position="top-center" />
       <div className="max-w-md w-full bg-white p-8 rounded-2xl border border-gray-100 shadow-sm space-y-6">
         <div className="text-center space-y-2">
-          <h1 className="text-2xl font-extrabold text-gray-900">রেজিস্ট্রেশন করুন</h1>
+          <h1 className="text-2xl font-extrabold text-gray-900">সাইন আপ করুন</h1>
           <p className="text-sm text-gray-500">বাজার দর-এ নতুন অ্যাকাউন্ট তৈরি করুন</p>
         </div>
 
@@ -100,7 +100,7 @@ onError: (ctx) => {
             disabled={loading}
             className="w-full bg-[#1B5E20] hover:bg-emerald-800 text-white font-medium py-3 rounded-xl transition shadow-sm cursor-pointer"
           >
-            {loading ? 'প্রসেসিং হচ্ছে...' : 'রেজিস্ট্রেশন করুন'}
+            {loading ? 'প্রসেসিং হচ্ছে...' : 'সাইন আপ করুন'}
           </button>
         </form>
 
